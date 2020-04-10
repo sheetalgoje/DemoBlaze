@@ -30,7 +30,7 @@ public class Library
 			}
 			else if(browser.equalsIgnoreCase("chrome"))
 			{
-				System.getProperty("webdriver.chrome.driver","C:\\Users\\my pc\\eclipse-workspace1\\ProjectDemoBlaze\\src\\test\\resources\\driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\my pc\\eclipse-workspace1\\ProjectDemoBlaze\\src\\test\\resources\\driver\\chromedriver.exe");
 				driver = new ChromeDriver();
 				
 			}
